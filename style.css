@@ -1,0 +1,52 @@
+*{
+    box-sizing:border-box;
+}
+body{
+    margin-left: auto;
+    margin-right: auto;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 15px 30px;
+    font-size:17px;
+padding:18px;
+overflow: auto;
+}
+.container{
+    background-color:lightgrey;
+    padding:5px 20px 15px 20px;
+    border: 1px solid black;
+    border-radius: 4px;
+    overflow: auto;
+}
+input[type="text"],
+input[type="password"],
+select,
+textarea{
+    width:100%;
+    padding:12px;
+    border:1px solid black;
+    border-radius: 5px;
+    margin:5px;
+    overflow: auto;
+}
+h1{
+    text-align: center;
+    overflow: auto;
+    font-size: 200%;
+    text-decoration: underline;
+}
+button{
+    background-color:darkcyan;
+    color: lavender;
+    padding: 12px 20px;
+    border-radius: 4px;
+    cursor:pointer;
+    width: 100%;
+    overflow: auto;
+}
+button:hover{
+background-color: lightseagreen;
+overflow: auto;
+}
+textarea{
+    overflow: auto;
+}
